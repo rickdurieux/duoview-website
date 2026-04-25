@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import ScrollHeader from './components/ScrollHeader';
 
 export default function Home() {
@@ -17,21 +18,40 @@ export default function Home() {
           Your browser does not support the video tag.
         </video>
 
-        <div className="absolute inset-0 z-10 bg-[linear-gradient(180deg,rgba(255,255,255,0.08)_0%,rgba(240,249,255,0.12)_28%,rgba(14,116,144,0.18)_68%,rgba(15,23,42,0.26)_100%)]" />
-        <div className="absolute inset-0 z-10 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.34),transparent_32%),radial-gradient(circle_at_right,rgba(186,230,253,0.28),transparent_30%),linear-gradient(180deg,rgba(255,255,255,0.04)_0%,rgba(12,74,110,0.12)_52%,rgba(15,23,42,0.22)_100%)]" />
+        <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(15,23,42,0.42)_0%,rgba(15,23,42,0.24)_32%,rgba(12,74,110,0.1)_56%,rgba(255,255,255,0)_100%)]" />
+        <div className="absolute inset-x-0 bottom-0 z-10 h-48 bg-[linear-gradient(180deg,rgba(255,255,255,0)_0%,rgba(239,246,255,0.72)_100%)]" />
+        <div className="absolute inset-0 z-10 bg-[radial-gradient(circle_at_top_left,rgba(186,230,253,0.16),transparent_24%),radial-gradient(circle_at_right,rgba(125,211,252,0.1),transparent_22%)]" />
 
         <div className="relative z-20 flex min-h-screen items-center">
           <div className="mx-auto flex w-full max-w-7xl px-6 py-24 sm:px-10 lg:px-16">
-            <div className="max-w-3xl">
-              <p className="mb-5 text-sm font-medium uppercase tracking-[0.45em] text-sky-100">
-                DuoView
-              </p>
+            <div className="max-w-4xl">
+              <div className="inline-flex items-center gap-3 rounded-full border border-white/16 bg-slate-900/18 px-3 py-2.5 shadow-[0_10px_24px_rgba(15,23,42,0.14)] backdrop-blur-sm">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white/16 p-2 sm:h-12 sm:w-12">
+                  <Image
+                    src="/duoview-logo.png"
+                    alt="DuoView logo"
+                    width={64}
+                    height={64}
+                    className="h-full w-full object-contain"
+                    priority
+                  />
+                </div>
 
-              <h1 className="max-w-2xl text-5xl font-semibold leading-tight text-white sm:text-6xl lg:text-7xl">
+                <div>
+                  <p className="text-[10px] font-medium uppercase tracking-[0.28em] text-sky-100/75 sm:text-xs">
+                    Drone imaging & visual content
+                  </p>
+                  <p className="mt-0.5 text-xl font-semibold tracking-tight text-white sm:text-2xl">
+                    DuoView
+                  </p>
+                </div>
+              </div>
+
+              <h1 className="mt-8 max-w-3xl text-5xl font-semibold leading-[1.02] text-white [text-shadow:0_12px_32px_rgba(15,23,42,0.58)] sm:text-6xl lg:text-7xl">
                 Elevate Your Vision
               </h1>
 
-              <p className="mt-6 max-w-2xl text-base leading-8 text-slate-100 sm:text-lg">
+              <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-50/95 [text-shadow:0_6px_20px_rgba(15,23,42,0.48)] sm:text-xl">
                 Professionele dronebeelden, inspecties en visuele content
                 vanuit een nieuw perspectief.
               </p>
@@ -39,14 +59,14 @@ export default function Home() {
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
                 <a
                   href="#diensten"
-                  className="inline-flex items-center justify-center rounded-full bg-sky-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_16px_35px_rgba(14,165,233,0.28)] transition hover:bg-cyan-500"
+                  className="inline-flex items-center justify-center rounded-full bg-sky-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_18px_35px_rgba(14,165,233,0.35)] transition hover:bg-cyan-500"
                 >
                   Bekijk diensten
                 </a>
 
                 <a
                   href="#contact"
-                  className="inline-flex items-center justify-center rounded-full border border-sky-100/70 bg-white/18 px-6 py-3 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/28"
+                  className="inline-flex items-center justify-center rounded-full border border-white/40 bg-slate-900/12 px-6 py-3 text-sm font-semibold text-white shadow-[0_10px_30px_rgba(15,23,42,0.16)] backdrop-blur-sm transition hover:bg-white/16"
                 >
                   Neem contact op
                 </a>
