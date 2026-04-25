@@ -52,8 +52,8 @@ export default function Home() {
               </h1>
 
               <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-50/95 [text-shadow:0_6px_20px_rgba(15,23,42,0.48)] sm:text-xl">
-                Professionele dronebeelden, inspecties en visuele content
-                vanuit een nieuw perspectief.
+                Professionele dronebeelden, FPV en visuele content vanuit een
+                nieuw perspectief.
               </p>
 
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
