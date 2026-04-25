@@ -99,9 +99,6 @@ export default function Home() {
             <article className="group rounded-3xl border border-slate-200 bg-white/85 p-8 shadow-[0_18px_45px_rgba(148,163,184,0.18)] backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_22px_50px_rgba(14,165,233,0.16)]">
               <div className="h-full rounded-2xl border border-sky-100 bg-[linear-gradient(180deg,rgba(240,249,255,0.95),rgba(255,255,255,0.92))] p-1">
                 <div className="h-full rounded-[calc(1rem-1px)] p-6">
-                  <p className="text-sm uppercase tracking-[0.28em] text-sky-600">
-                    01
-                  </p>
                   <h3 className="mt-4 text-2xl font-semibold text-slate-900">
                     Dronebeelden
                   </h3>
@@ -116,15 +113,13 @@ export default function Home() {
             <article className="group rounded-3xl border border-slate-200 bg-white/85 p-8 shadow-[0_18px_45px_rgba(148,163,184,0.18)] backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_22px_50px_rgba(14,165,233,0.16)]">
               <div className="h-full rounded-2xl border border-sky-100 bg-[linear-gradient(180deg,rgba(240,249,255,0.95),rgba(255,255,255,0.92))] p-1">
                 <div className="h-full rounded-[calc(1rem-1px)] p-6">
-                  <p className="text-sm uppercase tracking-[0.28em] text-sky-600">
-                    02
-                  </p>
                   <h3 className="mt-4 text-2xl font-semibold text-slate-900">
-                    Inspecties
+                    FPV
                   </h3>
                   <p className="mt-4 text-base leading-7 text-slate-700">
-                    Veilige visuele inspecties van daken, gebouwen, terreinen
-                    en moeilijk bereikbare plekken.
+                    FPV-dronebeelden met dynamische en meeslepende bewegingen,
+                    ideaal voor promotievideo&apos;s, bedrijfsfilms en unieke
+                    indoor of snelle shots.
                   </p>
                 </div>
               </div>
@@ -133,9 +128,6 @@ export default function Home() {
             <article className="group rounded-3xl border border-slate-200 bg-white/85 p-8 shadow-[0_18px_45px_rgba(148,163,184,0.18)] backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_22px_50px_rgba(14,165,233,0.16)]">
               <div className="h-full rounded-2xl border border-sky-100 bg-[linear-gradient(180deg,rgba(240,249,255,0.95),rgba(255,255,255,0.92))] p-1">
                 <div className="h-full rounded-[calc(1rem-1px)] p-6">
-                  <p className="text-sm uppercase tracking-[0.28em] text-sky-600">
-                    03
-                  </p>
                   <h3 className="mt-4 text-2xl font-semibold text-slate-900">
                     Content &amp; montage
                   </h3>
