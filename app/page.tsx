@@ -1,7 +1,11 @@
+import ScrollHeader from './components/ScrollHeader';
+
 export default function Home() {
   return (
     <main className="bg-black text-white">
-      <section className="relative min-h-screen overflow-hidden">
+      <ScrollHeader />
+
+      <section id="home" className="relative min-h-screen overflow-hidden">
         <video
           className="absolute inset-0 z-0 h-full w-full object-cover"
           src="/duoview-hero.mp4"
@@ -122,6 +126,131 @@ export default function Home() {
                 </div>
               </div>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="portfolio"
+        className="border-t border-white/10 bg-[linear-gradient(180deg,#030712_0%,#07101f_100%)]"
+      >
+        <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28">
+          <div className="max-w-3xl">
+            <p className="text-sm font-medium uppercase tracking-[0.35em] text-sky-300/70">
+              Portfolio
+            </p>
+            <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+              Werk dat hoogte, detail en verhaal samenbrengt
+            </h2>
+            <p className="mt-6 text-base leading-8 text-slate-300 sm:text-lg">
+              DuoView maakt visuele producties die sfeer, schaal en precisie
+              combineren. Van vastgoed en bedrijventerreinen tot events en
+              merkcontent: elk project krijgt een strakke, hoogwaardige
+              uitstraling.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+            <article className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_18px_50px_rgba(2,6,23,0.28)] backdrop-blur-sm">
+              <p className="text-sm uppercase tracking-[0.3em] text-sky-300/70">
+                Vastgoed
+              </p>
+              <p className="mt-4 text-lg leading-8 text-slate-200">
+                Dynamische beelden die locaties helder, ruimtelijk en premium
+                presenteren.
+              </p>
+            </article>
+
+            <article className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_18px_50px_rgba(2,6,23,0.28)] backdrop-blur-sm">
+              <p className="text-sm uppercase tracking-[0.3em] text-sky-300/70">
+                Bedrijven
+              </p>
+              <p className="mt-4 text-lg leading-8 text-slate-200">
+                Dronecontent die processen, locaties en merkidentiteit krachtig
+                in beeld brengt.
+              </p>
+            </article>
+
+            <article className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_18px_50px_rgba(2,6,23,0.28)] backdrop-blur-sm">
+              <p className="text-sm uppercase tracking-[0.3em] text-sky-300/70">
+                Campagnes
+              </p>
+              <p className="mt-4 text-lg leading-8 text-slate-200">
+                Social-first video’s en hero visuals die direct inzetbaar zijn
+                in online campagnes.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="over-ons"
+        className="border-t border-white/10 bg-[linear-gradient(180deg,#040b16_0%,#020617_100%)]"
+      >
+        <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28">
+          <div className="grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-start">
+            <div className="max-w-3xl">
+              <p className="text-sm font-medium uppercase tracking-[0.35em] text-sky-300/70">
+                Over ons
+              </p>
+              <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+                Technisch scherp, visueel sterk
+              </h2>
+              <p className="mt-6 text-base leading-8 text-slate-300 sm:text-lg">
+                DuoView combineert een cinematografische blik met praktische
+                inzetbaarheid. Daardoor ontstaan beelden die niet alleen mooi
+                zijn, maar ook echt waarde toevoegen voor presentatie,
+                inspectie en communicatie.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-white/10 bg-white/5 p-8 shadow-[0_18px_50px_rgba(2,6,23,0.28)] backdrop-blur-sm">
+              <p className="text-sm uppercase tracking-[0.3em] text-sky-300/70">
+                Focus
+              </p>
+              <ul className="mt-5 space-y-4 text-slate-200">
+                <li>Professionele drone-opnames met premium uitstraling.</li>
+                <li>Veilige en efficiënte visuele inspecties op locatie.</li>
+                <li>Content die direct bruikbaar is voor web en socials.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        className="border-t border-white/10 bg-[linear-gradient(180deg,#020617_0%,#010409_100%)]"
+      >
+        <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28">
+          <div className="rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-[0_18px_60px_rgba(2,6,23,0.35)] backdrop-blur-xl sm:p-10 lg:p-14">
+            <p className="text-sm font-medium uppercase tracking-[0.35em] text-sky-300/70">
+              Contact
+            </p>
+            <h2 className="mt-4 text-3xl font-semibold text-white sm:text-4xl">
+              Klaar om jouw project vanuit een nieuw perspectief te tonen?
+            </h2>
+            <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300 sm:text-lg">
+              Neem contact op voor dronebeelden, inspecties of contentproductie.
+              DuoView denkt graag mee over een aanpak die past bij jouw locatie,
+              doel en verhaal.
+            </p>
+
+            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+              <a
+                href="mailto:info@duoview.nl"
+                className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-sky-200"
+              >
+                info@duoview.nl
+              </a>
+              <a
+                href="#home"
+                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/8 px-6 py-3 text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/12"
+              >
+                Terug naar boven
+              </a>
+            </div>
           </div>
         </div>
       </section>
