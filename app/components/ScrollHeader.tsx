@@ -35,10 +35,10 @@ export default function ScrollHeader() {
           : 'pointer-events-none -translate-y-6 opacity-0'
       }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 rounded-2xl border border-white/12 bg-slate-950/70 px-4 py-3 shadow-[0_18px_60px_rgba(2,6,23,0.45)] backdrop-blur-xl sm:px-6">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 rounded-2xl border border-sky-100 bg-white/75 px-4 py-3 shadow-[0_18px_45px_rgba(148,163,184,0.18)] backdrop-blur-xl sm:px-6">
         <a
           href="#home"
-          className="flex shrink-0 items-center rounded-full border border-white/10 bg-white/5 px-3 py-2 transition hover:border-sky-300/30 hover:bg-white/10"
+          className="flex shrink-0 items-center rounded-full border border-sky-100 bg-sky-50/80 px-3 py-2 transition hover:border-sky-200 hover:bg-white"
         >
           <Image
             src="/duoview-logo.png"
@@ -56,7 +56,7 @@ export default function ScrollHeader() {
               <li key={item.href}>
                 <a
                   href={item.href}
-                  className="block whitespace-nowrap rounded-full border border-transparent px-3 py-2 text-sm font-medium text-slate-200 transition hover:border-white/15 hover:bg-white/8 hover:text-white sm:px-4"
+                  className="block whitespace-nowrap rounded-full border border-transparent px-3 py-2 text-sm font-medium text-slate-700 transition hover:border-sky-100 hover:bg-sky-50 hover:text-sky-700 sm:px-4"
                 >
                   {item.label}
                 </a>
