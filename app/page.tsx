@@ -186,7 +186,7 @@ export default function Home() {
               </div>
               <div className="mt-6 flex min-h-[260px] items-center justify-center rounded-[1.5rem] bg-[linear-gradient(180deg,#f8fbff_0%,#eef7ff_100%)] p-8">
                 <Image
-                  src="/drone-mini-4-pro.jpg"
+                  src="/drone-mini-4-pro.png"
                   alt="DJI Mini 4 Pro"
                   width={420}
                   height={280}
@@ -208,7 +208,7 @@ export default function Home() {
               </div>
               <div className="mt-6 flex min-h-[260px] items-center justify-center rounded-[1.5rem] bg-[linear-gradient(180deg,#f8fbff_0%,#eef7ff_100%)] p-8">
                 <Image
-                  src="/drone-fpv.jpg"
+                  src="/drone-fpv.png"
                   alt="FPV Drone"
                   width={420}
                   height={280}
