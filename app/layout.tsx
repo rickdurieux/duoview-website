@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "DuoView",
   description: "Professionele dronebeelden, inspecties en visuele content.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
