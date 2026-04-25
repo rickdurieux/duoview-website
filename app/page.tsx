@@ -142,6 +142,91 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="border-t border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fbff_38%,#eff6ff_100%)]">
+        <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28">
+          <div className="max-w-3xl">
+            <p className="text-sm font-medium uppercase tracking-[0.35em] text-sky-600">
+              Onze drones
+            </p>
+            <h2 className="mt-4 text-3xl font-semibold text-slate-900 sm:text-4xl">
+              Onze drones
+            </h2>
+            <p className="mt-6 text-base leading-8 text-slate-700 sm:text-lg">
+              Wij werken met zorgvuldig geselecteerde drones voor cinematic
+              beelden, compacte producties en dynamische FPV-opnames.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 lg:grid-cols-3">
+            <article className="group rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8">
+              <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
+                Cinematic
+              </div>
+              <div className="mt-6 flex min-h-[260px] items-center justify-center rounded-[1.5rem] bg-[linear-gradient(180deg,#f8fbff_0%,#eef7ff_100%)] p-8">
+                <Image
+                  src="/drone-air-3s.png"
+                  alt="DJI Air 3S"
+                  width={420}
+                  height={280}
+                  className="h-auto w-full max-w-[320px] object-contain transition duration-300 group-hover:scale-[1.03]"
+                />
+              </div>
+              <h3 className="mt-8 text-2xl font-semibold text-slate-900">
+                DJI Air 3S
+              </h3>
+              <p className="mt-4 text-base leading-7 text-slate-700">
+                Krachtige allround drone voor hoogwaardige luchtbeelden,
+                detailshots en professionele producties.
+              </p>
+            </article>
+
+            <article className="group rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8">
+              <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
+                Compact
+              </div>
+              <div className="mt-6 flex min-h-[260px] items-center justify-center rounded-[1.5rem] bg-[linear-gradient(180deg,#f8fbff_0%,#eef7ff_100%)] p-8">
+                <Image
+                  src="/drone-mini-4-pro.jpg"
+                  alt="DJI Mini 4 Pro"
+                  width={420}
+                  height={280}
+                  className="h-auto w-full max-w-[320px] object-contain transition duration-300 group-hover:scale-[1.03]"
+                />
+              </div>
+              <h3 className="mt-8 text-2xl font-semibold text-slate-900">
+                DJI Mini 4 Pro
+              </h3>
+              <p className="mt-4 text-base leading-7 text-slate-700">
+                Licht, flexibel en ideaal voor snelle shoots, locaties met
+                beperkte ruimte en haarscherpe content.
+              </p>
+            </article>
+
+            <article className="group rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8">
+              <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
+                Dynamisch
+              </div>
+              <div className="mt-6 flex min-h-[260px] items-center justify-center rounded-[1.5rem] bg-[linear-gradient(180deg,#f8fbff_0%,#eef7ff_100%)] p-8">
+                <Image
+                  src="/drone-fpv.jpg"
+                  alt="FPV Drone"
+                  width={420}
+                  height={280}
+                  className="h-auto w-full max-w-[320px] object-contain transition duration-300 group-hover:scale-[1.03]"
+                />
+              </div>
+              <h3 className="mt-8 text-2xl font-semibold text-slate-900">
+                FPV Drone
+              </h3>
+              <p className="mt-4 text-base leading-7 text-slate-700">
+                Voor snelle, meeslepende en unieke first person view-opnames
+                met veel beleving en beweging.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section
         id="portfolio"
         className="border-t border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fafc_36%,#eff6ff_100%)]"
