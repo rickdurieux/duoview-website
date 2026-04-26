@@ -295,10 +295,10 @@ export default function Home() {
                 Technisch scherp, visueel sterk
               </h2>
               <p className="mt-6 text-base leading-8 text-slate-700 sm:text-lg">
-                DuoView combineert een cinematografische blik met praktische
-                inzetbaarheid. Daardoor ontstaan beelden die niet alleen mooi
-                zijn, maar ook echt waarde toevoegen voor presentatie,
-                inspectie en communicatie.
+                DuoView combineert een cinematografische blik met technische
+                precisie. Daardoor ontstaan beelden die niet alleen mooi zijn,
+                maar ook echt waarde toevoegen voor presentatie, promotie en
+                communicatie.
               </p>
             </div>
 
@@ -308,8 +308,13 @@ export default function Home() {
               </p>
               <ul className="mt-5 space-y-4 text-slate-700">
                 <li>Professionele drone-opnames met premium uitstraling.</li>
-                <li>Veilige en efficiënte visuele inspecties op locatie.</li>
-                <li>Content die direct bruikbaar is voor web en socials.</li>
+                <li>
+                  Dynamische FPV-beelden voor unieke perspectieven en beweging.
+                </li>
+                <li>
+                  Content die direct bruikbaar is voor web, socials en
+                  campagnes.
+                </li>
               </ul>
             </div>
           </div>
