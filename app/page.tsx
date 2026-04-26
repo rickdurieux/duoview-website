@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import ScrollHeader from './components/ScrollHeader';
 
 export default function Home() {
@@ -267,12 +268,12 @@ export default function Home() {
                 Dynamische beelden die locaties helder, ruimtelijk en premium
                 presenteren.
               </p>
-              <a
-                href="#contact"
+              <Link
+                href="/portfolio/vastgoed"
                 className="mt-8 inline-flex items-center text-sm font-semibold text-sky-700 transition group-hover:text-sky-800"
               >
                 Bekijk stijl
-              </a>
+              </Link>
             </article>
 
             <article className="group flex min-w-[82%] snap-center flex-col rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.14)] transition-all duration-300 hover:-translate-y-2 hover:border-sky-200 hover:shadow-[0_28px_60px_rgba(125,211,252,0.18)] sm:p-8 md:min-w-0">
@@ -286,12 +287,12 @@ export default function Home() {
                 Dronecontent die processen, locaties en merkidentiteit krachtig
                 in beeld brengt.
               </p>
-              <a
-                href="#contact"
+              <Link
+                href="/portfolio/bedrijven"
                 className="mt-8 inline-flex items-center text-sm font-semibold text-sky-700 transition group-hover:text-sky-800"
               >
                 Bekijk stijl
-              </a>
+              </Link>
             </article>
 
             <article className="group flex min-w-[82%] snap-center flex-col rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.14)] transition-all duration-300 hover:-translate-y-2 hover:border-sky-200 hover:shadow-[0_28px_60px_rgba(125,211,252,0.18)] sm:p-8 md:min-w-0">
@@ -305,12 +306,12 @@ export default function Home() {
                 Social-first video’s en hero visuals die direct inzetbaar zijn
                 in online campagnes.
               </p>
-              <a
-                href="#contact"
+              <Link
+                href="/portfolio/campagnes"
                 className="mt-8 inline-flex items-center text-sm font-semibold text-sky-700 transition group-hover:text-sky-800"
               >
                 Bekijk stijl
-              </a>
+              </Link>
             </article>
           </div>
         </div>
