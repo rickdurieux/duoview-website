@@ -353,32 +353,78 @@ export default function Home() {
         className="border-t border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#eff6ff_100%)]"
       >
         <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28">
-          <div className="rounded-[2rem] border border-slate-200 bg-white/90 p-8 shadow-[0_20px_55px_rgba(148,163,184,0.18)] backdrop-blur-xl sm:p-10 lg:p-14">
-            <p className="text-sm font-medium uppercase tracking-[0.35em] text-sky-600">
-              Contact
-            </p>
-            <h2 className="mt-4 text-3xl font-semibold text-slate-900 sm:text-4xl">
-              Klaar om jouw project vanuit een nieuw perspectief te tonen?
-            </h2>
-            <p className="mt-6 max-w-3xl text-base leading-8 text-slate-700 sm:text-lg">
-              Neem contact op voor dronebeelden, inspecties of contentproductie.
-              DuoView denkt graag mee over een aanpak die past bij jouw locatie,
-              doel en verhaal.
-            </p>
+          <div className="grid gap-10 rounded-[2rem] border border-slate-200 bg-[linear-gradient(180deg,rgba(255,255,255,0.96),rgba(239,246,255,0.9))] p-8 shadow-[0_20px_55px_rgba(148,163,184,0.18)] backdrop-blur-xl sm:p-10 lg:grid-cols-[1.15fr_0.85fr] lg:items-start lg:p-14">
+            <div className="max-w-2xl">
+              <p className="text-sm font-medium uppercase tracking-[0.35em] text-sky-600">
+                Contact
+              </p>
+              <h2 className="mt-4 text-3xl font-semibold text-slate-900 sm:text-4xl">
+                Klaar om jouw project vanuit een nieuw perspectief te tonen?
+              </h2>
+              <p className="mt-6 text-base leading-8 text-slate-700 sm:text-lg">
+                Neem contact op voor professionele dronebeelden, FPV-opnames en
+                visuele content. DuoView denkt graag mee over een aanpak die
+                past bij jouw locatie, doel en uitstraling.
+              </p>
 
-            <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <a
-                href="mailto:info@duoview.nl"
-                className="inline-flex items-center justify-center rounded-full bg-sky-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_16px_35px_rgba(14,165,233,0.25)] transition hover:bg-cyan-500"
-              >
-                info@duoview.nl
-              </a>
-              <a
-                href="#home"
-                className="inline-flex items-center justify-center rounded-full border border-sky-200 bg-sky-50 px-6 py-3 text-sm font-semibold text-sky-700 transition hover:bg-sky-100"
-              >
-                Terug naar boven
-              </a>
+              <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+                <a
+                  href="mailto:info@duoview.nl"
+                  className="inline-flex items-center justify-center rounded-full bg-sky-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_16px_35px_rgba(14,165,233,0.25)] transition hover:bg-cyan-500"
+                >
+                  Mail ons
+                </a>
+                <a
+                  href="#portfolio"
+                  className="inline-flex items-center justify-center rounded-full border border-sky-200 bg-sky-50 px-6 py-3 text-sm font-semibold text-sky-700 transition hover:bg-sky-100"
+                >
+                  Bekijk portfolio
+                </a>
+              </div>
+            </div>
+
+            <div className="rounded-[1.75rem] border border-sky-100 bg-white/92 p-6 shadow-[0_18px_40px_rgba(148,163,184,0.16)] sm:p-8">
+              <div className="h-1 w-16 rounded-full bg-[linear-gradient(90deg,#38bdf8,#7dd3fc)]" />
+              <div className="mt-6 space-y-5">
+                <div className="flex items-start gap-3">
+                  <span className="mt-1 h-2.5 w-2.5 rounded-full bg-sky-500 shadow-[0_0_0_6px_rgba(186,230,253,0.8)]" />
+                  <div>
+                    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+                      E-mail
+                    </p>
+                    <a
+                      href="mailto:info@duoview.nl"
+                      className="mt-1 inline-block text-base text-slate-700 transition hover:text-sky-700"
+                    >
+                      info@duoview.nl
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <span className="mt-1 h-2.5 w-2.5 rounded-full bg-sky-500 shadow-[0_0_0_6px_rgba(186,230,253,0.8)]" />
+                  <div>
+                    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+                      Reactietijd
+                    </p>
+                    <p className="mt-1 text-base text-slate-700">
+                      Meestal binnen 24 uur
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <span className="mt-1 h-2.5 w-2.5 rounded-full bg-sky-500 shadow-[0_0_0_6px_rgba(186,230,253,0.8)]" />
+                  <div>
+                    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">
+                      Toepassingen
+                    </p>
+                    <p className="mt-1 text-base text-slate-700">
+                      Bedrijven, vastgoed en campagnes
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
