@@ -232,14 +232,14 @@ export default function Home() {
         className="border-t border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fafc_36%,#eff6ff_100%)]"
       >
         <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28">
-          <div className="max-w-3xl">
+          <div className="max-w-2xl">
             <p className="text-sm font-medium uppercase tracking-[0.35em] text-sky-600">
               Portfolio
             </p>
             <h2 className="mt-4 text-3xl font-semibold text-slate-900 sm:text-4xl">
               Werk dat hoogte, detail en verhaal samenbrengt
             </h2>
-            <p className="mt-6 text-base leading-8 text-slate-700 sm:text-lg">
+            <p className="mt-5 text-base leading-8 text-slate-700 sm:text-lg">
               DuoView maakt visuele producties die sfeer, schaal en precisie
               combineren. Van vastgoed en bedrijventerreinen tot events en
               merkcontent: elk project krijgt een strakke, hoogwaardige
@@ -248,34 +248,61 @@ export default function Home() {
           </div>
 
           <div className="-mx-6 mt-12 flex snap-x snap-mandatory gap-6 overflow-x-auto px-6 pb-2 md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 lg:grid-cols-3">
-            <article className="min-w-[82%] snap-center rounded-3xl border border-slate-200 bg-white p-8 shadow-[0_18px_45px_rgba(148,163,184,0.16)] md:min-w-0">
-              <p className="text-sm uppercase tracking-[0.3em] text-sky-600">
+            <article className="group flex min-w-[82%] snap-center flex-col rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.14)] transition-all duration-300 hover:-translate-y-2 hover:border-sky-200 hover:shadow-[0_28px_60px_rgba(125,211,252,0.18)] sm:p-8 md:min-w-0">
+              <div className="rounded-[1.5rem] border border-sky-100/80 bg-[linear-gradient(135deg,rgba(248,250,252,1),rgba(240,249,255,1),rgba(239,246,255,1))] p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.95)] transition-all duration-300 group-hover:-translate-y-1 group-hover:border-sky-200">
+                <div className="h-36 rounded-[1.25rem] bg-[radial-gradient(circle_at_top_left,rgba(125,211,252,0.28),transparent_34%),linear-gradient(180deg,rgba(255,255,255,0.92),rgba(240,249,255,0.88))]" />
+              </div>
+              <p className="mt-7 text-sm uppercase tracking-[0.3em] text-sky-600">
                 Vastgoed
               </p>
-              <p className="mt-4 text-lg leading-8 text-slate-700">
+              <p className="mt-4 flex-1 text-lg leading-8 text-slate-700">
                 Dynamische beelden die locaties helder, ruimtelijk en premium
                 presenteren.
               </p>
+              <a
+                href="#contact"
+                className="mt-8 inline-flex items-center text-sm font-semibold text-sky-700 transition group-hover:text-sky-800"
+              >
+                Bekijk stijl
+              </a>
             </article>
 
-            <article className="min-w-[82%] snap-center rounded-3xl border border-slate-200 bg-white p-8 shadow-[0_18px_45px_rgba(148,163,184,0.16)] md:min-w-0">
-              <p className="text-sm uppercase tracking-[0.3em] text-sky-600">
+            <article className="group flex min-w-[82%] snap-center flex-col rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.14)] transition-all duration-300 hover:-translate-y-2 hover:border-sky-200 hover:shadow-[0_28px_60px_rgba(125,211,252,0.18)] sm:p-8 md:min-w-0">
+              <div className="rounded-[1.5rem] border border-sky-100/80 bg-[linear-gradient(135deg,rgba(248,250,252,1),rgba(240,249,255,1),rgba(239,246,255,1))] p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.95)] transition-all duration-300 group-hover:-translate-y-1 group-hover:border-sky-200">
+                <div className="h-36 rounded-[1.25rem] bg-[radial-gradient(circle_at_top_right,rgba(125,211,252,0.24),transparent_34%),linear-gradient(180deg,rgba(255,255,255,0.92),rgba(240,249,255,0.88))]" />
+              </div>
+              <p className="mt-7 text-sm uppercase tracking-[0.3em] text-sky-600">
                 Bedrijven
               </p>
-              <p className="mt-4 text-lg leading-8 text-slate-700">
+              <p className="mt-4 flex-1 text-lg leading-8 text-slate-700">
                 Dronecontent die processen, locaties en merkidentiteit krachtig
                 in beeld brengt.
               </p>
+              <a
+                href="#contact"
+                className="mt-8 inline-flex items-center text-sm font-semibold text-sky-700 transition group-hover:text-sky-800"
+              >
+                Bekijk stijl
+              </a>
             </article>
 
-            <article className="min-w-[82%] snap-center rounded-3xl border border-slate-200 bg-white p-8 shadow-[0_18px_45px_rgba(148,163,184,0.16)] md:min-w-0">
-              <p className="text-sm uppercase tracking-[0.3em] text-sky-600">
+            <article className="group flex min-w-[82%] snap-center flex-col rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.14)] transition-all duration-300 hover:-translate-y-2 hover:border-sky-200 hover:shadow-[0_28px_60px_rgba(125,211,252,0.18)] sm:p-8 md:min-w-0">
+              <div className="rounded-[1.5rem] border border-sky-100/80 bg-[linear-gradient(135deg,rgba(248,250,252,1),rgba(240,249,255,1),rgba(239,246,255,1))] p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.95)] transition-all duration-300 group-hover:-translate-y-1 group-hover:border-sky-200">
+                <div className="h-36 rounded-[1.25rem] bg-[radial-gradient(circle_at_center,rgba(125,211,252,0.22),transparent_32%),linear-gradient(180deg,rgba(255,255,255,0.92),rgba(240,249,255,0.88))]" />
+              </div>
+              <p className="mt-7 text-sm uppercase tracking-[0.3em] text-sky-600">
                 Campagnes
               </p>
-              <p className="mt-4 text-lg leading-8 text-slate-700">
+              <p className="mt-4 flex-1 text-lg leading-8 text-slate-700">
                 Social-first video’s en hero visuals die direct inzetbaar zijn
                 in online campagnes.
               </p>
+              <a
+                href="#contact"
+                className="mt-8 inline-flex items-center text-sm font-semibold text-sky-700 transition group-hover:text-sky-800"
+              >
+                Bekijk stijl
+              </a>
             </article>
           </div>
         </div>
