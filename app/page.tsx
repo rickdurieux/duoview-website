@@ -8,12 +8,16 @@ export default function Home() {
 
       <section id="home" className="relative min-h-screen overflow-hidden">
         <video
-          className="absolute inset-0 z-0 h-full w-full object-cover"
+          className="absolute inset-0 z-0 h-full w-full object-cover select-none"
           src="/duoview-hero.mp4"
           autoPlay
           muted
           loop
           playsInline
+          controls={false}
+          controlsList="nodownload noplaybackrate noremoteplayback"
+          disablePictureInPicture
+          draggable={false}
         >
           Your browser does not support the video tag.
         </video>
@@ -32,8 +36,9 @@ export default function Home() {
                     alt="DuoView logo"
                     width={64}
                     height={64}
-                    className="h-full w-full object-contain"
+                    className="h-full w-full object-contain select-none"
                     priority
+                    draggable={false}
                   />
                 </div>
 
@@ -168,7 +173,8 @@ export default function Home() {
                   alt="DJI Air 3S"
                   width={420}
                   height={280}
-                  className="h-auto w-full max-w-[300px] object-contain mix-blend-multiply transition-all duration-300 group-hover:scale-[1.03]"
+                  className="h-auto w-full max-w-[300px] select-none object-contain mix-blend-multiply transition-all duration-300 group-hover:scale-[1.03]"
+                  draggable={false}
                 />
               </div>
               <h3 className="mt-8 text-2xl font-semibold text-slate-900">
@@ -190,7 +196,8 @@ export default function Home() {
                   alt="DJI Mini 4 Pro"
                   width={420}
                   height={280}
-                  className="h-auto w-full max-w-[300px] object-contain mix-blend-multiply transition-all duration-300 group-hover:scale-[1.03]"
+                  className="h-auto w-full max-w-[300px] select-none object-contain mix-blend-multiply transition-all duration-300 group-hover:scale-[1.03]"
+                  draggable={false}
                 />
               </div>
               <h3 className="mt-8 text-2xl font-semibold text-slate-900">
@@ -212,7 +219,8 @@ export default function Home() {
                   alt="FPV Drone"
                   width={420}
                   height={280}
-                  className="h-auto w-full max-w-[300px] object-contain mix-blend-multiply transition-all duration-300 group-hover:scale-[1.03]"
+                  className="h-auto w-full max-w-[300px] select-none object-contain mix-blend-multiply transition-all duration-300 group-hover:scale-[1.03]"
+                  draggable={false}
                 />
               </div>
               <h3 className="mt-8 text-2xl font-semibold text-slate-900">
