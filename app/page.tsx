@@ -148,7 +148,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="border-t border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fbff_38%,#eff6ff_100%)]">
+      <section
+        id="drones"
+        className="border-t border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f8fbff_38%,#eff6ff_100%)]"
+      >
         <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28">
           <div className="max-w-3xl">
             <p className="text-sm font-medium uppercase tracking-[0.35em] text-sky-600">

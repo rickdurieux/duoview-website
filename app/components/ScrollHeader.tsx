@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 const navigationItems = [
   { href: '#home', label: 'Home' },
   { href: '#diensten', label: 'Diensten' },
-  { href: '#onze-drones', label: 'Onze drones' },
+  { href: '#drones', label: 'Onze drones' },
   { href: '#portfolio', label: 'Portfolio' },
   { href: '#over-ons', label: 'Over ons' },
   { href: '#contact', label: 'Contact' },
