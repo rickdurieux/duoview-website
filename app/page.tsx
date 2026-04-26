@@ -95,8 +95,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-            <article className="group rounded-3xl border border-slate-200 bg-white/85 p-8 shadow-[0_18px_45px_rgba(148,163,184,0.18)] backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_22px_50px_rgba(14,165,233,0.16)]">
+          <div className="-mx-6 mt-12 flex snap-x snap-mandatory gap-6 overflow-x-auto px-6 pb-2 md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 xl:grid-cols-3">
+            <article className="group min-w-[85%] snap-center rounded-3xl border border-slate-200 bg-white/85 p-8 shadow-[0_18px_45px_rgba(148,163,184,0.18)] backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_22px_50px_rgba(14,165,233,0.16)] md:min-w-0">
               <div className="h-full rounded-2xl border border-sky-100 bg-[linear-gradient(180deg,rgba(240,249,255,0.95),rgba(255,255,255,0.92))] p-1">
                 <div className="h-full rounded-[calc(1rem-1px)] p-6">
                   <h3 className="mt-4 text-2xl font-semibold text-slate-900">
@@ -110,7 +110,7 @@ export default function Home() {
               </div>
             </article>
 
-            <article className="group rounded-3xl border border-slate-200 bg-white/85 p-8 shadow-[0_18px_45px_rgba(148,163,184,0.18)] backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_22px_50px_rgba(14,165,233,0.16)]">
+            <article className="group min-w-[85%] snap-center rounded-3xl border border-slate-200 bg-white/85 p-8 shadow-[0_18px_45px_rgba(148,163,184,0.18)] backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_22px_50px_rgba(14,165,233,0.16)] md:min-w-0">
               <div className="h-full rounded-2xl border border-sky-100 bg-[linear-gradient(180deg,rgba(240,249,255,0.95),rgba(255,255,255,0.92))] p-1">
                 <div className="h-full rounded-[calc(1rem-1px)] p-6">
                   <h3 className="mt-4 text-2xl font-semibold text-slate-900">
@@ -125,7 +125,7 @@ export default function Home() {
               </div>
             </article>
 
-            <article className="group rounded-3xl border border-slate-200 bg-white/85 p-8 shadow-[0_18px_45px_rgba(148,163,184,0.18)] backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_22px_50px_rgba(14,165,233,0.16)]">
+            <article className="group min-w-[85%] snap-center rounded-3xl border border-slate-200 bg-white/85 p-8 shadow-[0_18px_45px_rgba(148,163,184,0.18)] backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_22px_50px_rgba(14,165,233,0.16)] md:min-w-0">
               <div className="h-full rounded-2xl border border-sky-100 bg-[linear-gradient(180deg,rgba(240,249,255,0.95),rgba(255,255,255,0.92))] p-1">
                 <div className="h-full rounded-[calc(1rem-1px)] p-6">
                   <h3 className="mt-4 text-2xl font-semibold text-slate-900">
@@ -157,8 +157,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 lg:grid-cols-3">
-            <article className="group rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8">
+          <div className="-mx-6 mt-12 flex snap-x snap-mandatory gap-6 overflow-x-auto px-6 pb-2 md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 lg:grid-cols-3">
+            <article className="group min-w-[85%] snap-center rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8 md:min-w-0">
               <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
                 Cinematic
               </div>
@@ -180,7 +180,7 @@ export default function Home() {
               </p>
             </article>
 
-            <article className="group rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8">
+            <article className="group min-w-[85%] snap-center rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8 md:min-w-0">
               <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
                 Compact
               </div>
@@ -202,7 +202,7 @@ export default function Home() {
               </p>
             </article>
 
-            <article className="group rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8">
+            <article className="group min-w-[85%] snap-center rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8 md:min-w-0">
               <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
                 Dynamisch
               </div>
@@ -247,8 +247,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 lg:grid-cols-3">
-            <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-[0_18px_45px_rgba(148,163,184,0.16)]">
+          <div className="-mx-6 mt-12 flex snap-x snap-mandatory gap-6 overflow-x-auto px-6 pb-2 md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 lg:grid-cols-3">
+            <article className="min-w-[82%] snap-center rounded-3xl border border-slate-200 bg-white p-8 shadow-[0_18px_45px_rgba(148,163,184,0.16)] md:min-w-0">
               <p className="text-sm uppercase tracking-[0.3em] text-sky-600">
                 Vastgoed
               </p>
@@ -258,7 +258,7 @@ export default function Home() {
               </p>
             </article>
 
-            <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-[0_18px_45px_rgba(148,163,184,0.16)]">
+            <article className="min-w-[82%] snap-center rounded-3xl border border-slate-200 bg-white p-8 shadow-[0_18px_45px_rgba(148,163,184,0.16)] md:min-w-0">
               <p className="text-sm uppercase tracking-[0.3em] text-sky-600">
                 Bedrijven
               </p>
@@ -268,7 +268,7 @@ export default function Home() {
               </p>
             </article>
 
-            <article className="rounded-3xl border border-slate-200 bg-white p-8 shadow-[0_18px_45px_rgba(148,163,184,0.16)]">
+            <article className="min-w-[82%] snap-center rounded-3xl border border-slate-200 bg-white p-8 shadow-[0_18px_45px_rgba(148,163,184,0.16)] md:min-w-0">
               <p className="text-sm uppercase tracking-[0.3em] text-sky-600">
                 Campagnes
               </p>
