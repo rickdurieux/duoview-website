@@ -33,7 +33,12 @@ export default function BackToTop() {
           : 'pointer-events-none translate-y-3 opacity-0'
       }`}
     >
-      <span className="relative flex h-9 w-9 items-center justify-center md:h-10 md:w-10">
+      <span className="flex flex-col items-center justify-center gap-0.5">
+        <span className="text-[10px] font-semibold uppercase tracking-[0.24em] text-sky-700/90 md:text-[11px]">
+          Take off
+        </span>
+
+        <span className="relative flex h-9 w-9 items-center justify-center md:h-10 md:w-10">
         <svg
           viewBox="0 0 24 24"
           fill="none"
@@ -96,6 +101,7 @@ export default function BackToTop() {
             strokeLinejoin="round"
           />
         </svg>
+        </span>
       </span>
     </button>
   );
