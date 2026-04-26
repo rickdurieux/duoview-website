@@ -146,7 +146,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 py-20 sm:px-10 lg:px-16 lg:py-28">
           <div className="max-w-3xl">
             <p className="text-sm font-medium uppercase tracking-[0.35em] text-sky-600">
-              Onze drones
+              Drone Fleet
             </p>
             <h2 className="mt-4 text-3xl font-semibold text-slate-900 sm:text-4xl">
               Onze drones
@@ -158,17 +158,17 @@ export default function Home() {
           </div>
 
           <div className="-mx-6 mt-12 flex snap-x snap-mandatory gap-6 overflow-x-auto px-6 pb-2 md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 lg:grid-cols-3">
-            <article className="group min-w-[85%] snap-center rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8 md:min-w-0">
-              <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
+            <article className="group min-w-[85%] snap-center rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition-all duration-300 hover:-translate-y-2 hover:border-sky-200 hover:shadow-[0_30px_70px_rgba(125,211,252,0.22)] sm:p-8 md:min-w-0">
+              <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700 transition-all duration-300 group-hover:border-sky-200 group-hover:bg-sky-100 group-hover:text-sky-800">
                 Cinematic
               </div>
-              <div className="mt-6 flex min-h-[260px] items-center justify-center rounded-3xl bg-white p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_12px_30px_rgba(148,163,184,0.10)]">
+              <div className="mt-6 flex min-h-[260px] items-center justify-center rounded-3xl bg-white p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_12px_30px_rgba(148,163,184,0.10)] transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_18px_38px_rgba(125,211,252,0.16)]">
                 <Image
                   src="/drone-air-3s.png"
                   alt="DJI Air 3S"
                   width={420}
                   height={280}
-                  className="h-auto w-full max-w-[300px] object-contain mix-blend-multiply transition duration-300 group-hover:scale-[1.03]"
+                  className="h-auto w-full max-w-[300px] object-contain mix-blend-multiply transition-all duration-300 group-hover:scale-[1.03]"
                 />
               </div>
               <h3 className="mt-8 text-2xl font-semibold text-slate-900">
@@ -180,17 +180,17 @@ export default function Home() {
               </p>
             </article>
 
-            <article className="group min-w-[85%] snap-center rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8 md:min-w-0">
-              <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
+            <article className="group min-w-[85%] snap-center rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition-all duration-300 hover:-translate-y-2 hover:border-sky-200 hover:shadow-[0_30px_70px_rgba(125,211,252,0.22)] sm:p-8 md:min-w-0">
+              <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700 transition-all duration-300 group-hover:border-sky-200 group-hover:bg-sky-100 group-hover:text-sky-800">
                 Compact
               </div>
-              <div className="mt-6 flex min-h-[260px] items-center justify-center rounded-3xl bg-white p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_12px_30px_rgba(148,163,184,0.10)]">
+              <div className="mt-6 flex min-h-[260px] items-center justify-center rounded-3xl bg-white p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_12px_30px_rgba(148,163,184,0.10)] transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_18px_38px_rgba(125,211,252,0.16)]">
                 <Image
                   src="/drone-mini-4-pro.png"
                   alt="DJI Mini 4 Pro"
                   width={420}
                   height={280}
-                  className="h-auto w-full max-w-[300px] object-contain mix-blend-multiply transition duration-300 group-hover:scale-[1.03]"
+                  className="h-auto w-full max-w-[300px] object-contain mix-blend-multiply transition-all duration-300 group-hover:scale-[1.03]"
                 />
               </div>
               <h3 className="mt-8 text-2xl font-semibold text-slate-900">
@@ -202,17 +202,17 @@ export default function Home() {
               </p>
             </article>
 
-            <article className="group min-w-[85%] snap-center rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition duration-300 hover:-translate-y-1 hover:border-sky-300 hover:shadow-[0_24px_55px_rgba(14,165,233,0.14)] sm:p-8 md:min-w-0">
-              <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
+            <article className="group min-w-[85%] snap-center rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_18px_45px_rgba(148,163,184,0.16)] transition-all duration-300 hover:-translate-y-2 hover:border-sky-200 hover:shadow-[0_30px_70px_rgba(125,211,252,0.22)] sm:p-8 md:min-w-0">
+              <div className="inline-flex rounded-full border border-sky-100 bg-sky-50 px-3 py-1 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700 transition-all duration-300 group-hover:border-sky-200 group-hover:bg-sky-100 group-hover:text-sky-800">
                 Dynamisch
               </div>
-              <div className="mt-6 flex min-h-[260px] items-center justify-center rounded-3xl bg-white p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_12px_30px_rgba(148,163,184,0.10)]">
+              <div className="mt-6 flex min-h-[260px] items-center justify-center rounded-3xl bg-white p-6 shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_12px_30px_rgba(148,163,184,0.10)] transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_18px_38px_rgba(125,211,252,0.16)]">
                 <Image
                   src="/drone-fpv.png"
                   alt="FPV Drone"
                   width={420}
                   height={280}
-                  className="h-auto w-full max-w-[300px] object-contain mix-blend-multiply transition duration-300 group-hover:scale-[1.03]"
+                  className="h-auto w-full max-w-[300px] object-contain mix-blend-multiply transition-all duration-300 group-hover:scale-[1.03]"
                 />
               </div>
               <h3 className="mt-8 text-2xl font-semibold text-slate-900">
